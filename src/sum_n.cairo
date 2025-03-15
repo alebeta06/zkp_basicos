@@ -44,9 +44,10 @@ fn sum_to_n(n: u32) -> u32 {
 /// Esta función es el punto de entrada marcado con #[executable] y se invoca al generar la prueba
 /// de conocimiento cero.
 /// Recibe un número de entrada (n) y calcula la suma de los enteros del 1 a n.
-/// Imprime mensajes en consola para facilitar la depuraci\u00f3n y devuelve la suma total.
+/// Imprime mensajes
+/// en consola para facilitar la depuraci\u00f3n y devuelve la suma total.
 #[executable]
-fn main(input: u32) -> u32 {
+pub fn sumando_n(input: u32) -> u32 {
     // Imprime el valor de entrada.
     println!("Calculando la suma de los numeros del 1 a {}", input);
 

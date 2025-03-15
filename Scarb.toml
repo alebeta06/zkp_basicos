@@ -3,6 +3,12 @@ name = "zkp_basicos"
 version = "0.1.0"
 edition = "2024_07"
 
+[[target.executable]]
+name = "sumando_n"
+function = "zkp_basicos::sum_n::sumando_n"
+sierra = true
+casm = true
+
 [dependencies]
 starknet = "2.11.2"
 
