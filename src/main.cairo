@@ -1,4 +1,4 @@
-use lib::prime_prove::n_primo;
+use lib::prime_prover::n_primo;
 use lib::sum_n::sumando_n;
 
 #[executable]

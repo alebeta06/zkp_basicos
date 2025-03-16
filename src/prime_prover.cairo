@@ -70,7 +70,8 @@ pub fn n_primo(input: u128) -> bool {
     // Verifica que la entrada no sea demasiado grande; en este caso, mayor a 1,000,000.
     if input > 1000000 {
         // Si es mayor, se detiene la ejecución con un pánico y se muestra un mensaje de error.
-        panic!("Entrada demasiado grande, debe ser <= 1,000,000");
+        println!("Error: Entrada demasiado grande, debe ser <= 1,000,000");
+        return false;
     }
 
     // Llama a la función is_prime para determinar si el número es primo y almacena el resultado.

@@ -1,2 +1,2 @@
-mod prime_prove;
+mod prime_prover;
 mod sum_n;
