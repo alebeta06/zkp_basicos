@@ -45,13 +45,13 @@ fn sum_to_n(n: u32) -> u32 {
 /// de conocimiento cero.
 /// Recibe un número de entrada (n) y calcula la suma de los enteros del 1 a n.
 /// Imprime mensajes
-/// en consola para facilitar la depuraci\u00f3n y devuelve la suma total.
+/// en consola para facilitar la depuracion y devuelve la suma total.
 #[executable]
 pub fn sumando_n(input: u32) -> u32 {
     // Imprime el valor de entrada.
     println!("Calculando la suma de los numeros del 1 a {}", input);
 
-    // Llama a la funci\u00f3n sum_to_n para calcular la suma.
+    // Llama a la funcion sum_to_n para calcular la suma.
     let total = sum_to_n(input);
 
     // Imprime el resultado final.
