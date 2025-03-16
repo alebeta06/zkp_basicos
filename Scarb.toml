@@ -9,15 +9,16 @@ function = "zkp_basicos::sum_n::sumando_n"
 sierra = true
 casm = true
 
+[cairo]
+enable-gas = false
+
 [dependencies]
+cairo_execute = "2.11.2"
 starknet = "2.11.2"
 
 [dev-dependencies]
 snforge_std = "0.38.0"
 assert_macros = "2.11.2"
-
-[[target.starknet-contract]]
-sierra = true
 
 [scripts]
 test = "snforge test"
