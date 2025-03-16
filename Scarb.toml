@@ -15,6 +15,12 @@ function = "zkp_basicos::prime_prover::n_primo"
 sierra = true
 casm = true
 
+[[target.executable]]
+name = "numero_par"
+function = "zkp_basicos::par_prover::numero_par"
+sierra = true
+casm = true
+
 [cairo]
 enable-gas = false
 
