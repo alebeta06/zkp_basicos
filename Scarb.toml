@@ -9,6 +9,12 @@ function = "zkp_basicos::sum_n::sumando_n"
 sierra = true
 casm = true
 
+[[target.executable]]
+name = "n_primo"
+function = "zkp_basicos::prime_prover::n_primo"
+sierra = true
+casm = true
+
 [cairo]
 enable-gas = false
 
